@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  #banner {
+    width: 100%;
+    height: 500px;
+    background: url(/exercicio14/image/liga-da-justiça-resenha.jpg) no-repeat center;
+    background-position: center;
+    background-size: cover;
+  }
+
+  body {
+    background: #20242e;
+    margin: auto;
+    text-align: center;
+  }
+  #nav {
+    width: 100%;
+    height: 52px;
+    background-color: #4b5063;
+  }
+  #nav ul {
+    width: 800px;
+    height: 52px;
+    margin: auto;
+  }
+  #nav ul li {
+    display: inline-block;
+    /* line-height: 52px; */
+  }
+
+  #nav li a {
+    font: normal 16px verdana;
+    padding: 0 30px;
+    color: #fff;
+    line-height: 52px;
+  }
+  #nav ul li a:hover {
+    background: #333;
+  }
+  .linha-vert {
+    border-left: 1px solid white;
+    line-height: 52px;
+    margin: 0 5px;
+  }
+
+  /* lego e trailer CSS-inicio */
+
+  #container {
+    clear: both;
+    width: 1200px;
+    height: auto;
+    background: #fff;
+    margin: auto;
+    padding-top: 1px;
+  }
+
+  .bg-titulo {
+    width: 340px;
+
+    background: url(/exercicio14/image/banner.png);
+  }
+  .titulo {
+    width: 240px;
+    font: bold 16px verdana;
+    text-align: left;
+    margin: 3px 0;
+  }
+  #destaque {
+    margin: 15px auto;
+    width: 900px;
+    height: 295px;
+  }
+  .ajusta-destaque {
+    float: left;
+    margin: 0 5px;
+  }
+  .img-lego {
+    width: 200px;
+    height: 280px;
+  }
+  #trailer {
+    width: 1100px;
+    height: 165px;
+    margin: auto;
+  }
+  #container-trailer {
+    width: 1100px;
+    height: 300px;
+    margin: 15px auto;
+  }
+  .ajuste-trailer {
+    width: 345px;
+    float: left;
+    margin: 15px auto;
+  }
+  .texto-trailer {
+    width: 340px;
+    height: 20px;
+    background: #354343;
+    color: #fff;
+    font: normal 12px arial;
+    line-height: 20px;
+  }
+  .img-trailer {
+    width: 340px;
+  }
+
+  /* Produtods em destaque CSS - inicio */
+
+  .img-loja {
+    width: 210px;
+  }
+
+  #lojadc {
+    width: 1000px;
+    height: 420px;
+    margin: auto;
+  }
+  #container-loja {
+    width: 1172px;
+    height: 400px;
+    margin: auto;
+  }
+  .ajuste-produto {
+    width: 220px;
+    margin: 15px 2px;
+    float: left;
+  }
+  .texto-prod {
+    font: normal 12px arial;
+    margin: 0;
+  }
+  .destaque-preco {
+    font: bold 14px arial;
+    color: red;
+  }
+  footer {
+    width: 100%;
+    height: 400px;
+    padding-top: 1px;
+    background: url(/exercicio14/image/banner.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+  }
+  #container-footer{
+    width: 1000px;
+    height: 200px;
+    margin: 15px auto;
+  }
+  .nav-footer{
+    width: 150px;
+    float: left;
+    margin: 0 10px;
+  }
+  .titulo-footer{
+    width: 150px;
+    font: bold 14px arial;
+    color: #065FBE;
+    text-align: left;
+    margin: 10px 0;
+    
+  }
+  .nav-footer ul li {
+    width: 150px;
+    height: 20px;
+    text-align: left;
+  }
+  .nav-footer ul li a{
+    font: normal 12px arial;
+    color: white;
+  }
